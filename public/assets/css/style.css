@@ -1,0 +1,313 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.line{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(173, 173, 173) ;
+    float: left;
+    margin-right: 10px;
+}
+
+.font15{
+    font-size: 15px;
+}
+
+.font11{
+    font-size: 14px;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+   
+}
+
+.shadoww{
+    box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
+    
+}
+
+.footer1{
+    /* margin-left: 17rem; */
+    /* position: fixed; */
+    /* bottom: 0px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding-inline: 10px; */
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .sidenav {
+     display: none !important;
+    }
+  }
+
+  .munuhandle{
+    display: block !important;
+  }
+
+  .RightSideContent{
+    min-height: 80vh;
+  }
+
+.radias{
+        border-radius: 15px;
+}
+
+.insta{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+    border-radius: 3px;
+}
+
+.fontsizze{
+    font-size: 0.875rem;
+}
+
+
+/* webinfo */
+
+.compo{
+    
+}
+
+.inputit{
+    background-color: #cfcfcf5c;
+    border: 1px solid #c5c5c5;
+    border-radius: 6px;
+    padding-inline: 5px;
+    font-size: 13px;
+    color: grey;
+    font-weight: 500;
+    padding: 5px 11px;
+    outline: none;
+    margin-left: 0px;
+}
+
+.banking{
+    width: fit-content !important; 
+    top: -14px;
+    padding-inline: 8px;
+    /* margin-left: 10px; */
+    background-color: white;  
+}
+
+.bankingLink{
+    width: fit-content !important; 
+    top: -14px;
+    padding: 0px;
+    margin-left: 10px !important;
+    /* margin-left: 10px; */
+    background-color: white;  
+}
+
+.bankingmedia{
+    width: fit-content !important; 
+    top: -20px;
+    padding: 0px;
+    margin-left: 10px !important;
+    /* margin-left: 10px; */
+    background-color: white;  
+}
+
+.personalAbout{
+    position: absolute;
+    top: -15px;
+    background-color: white;
+    padding-inline: 3px;
+}
+
+.personalcompo{
+    background-color: #cfcfcf5c;
+    border: 1px solid #c5c5c5;
+    border-radius: 6px;
+    font-size: 13px;
+    color: grey;
+    font-weight: 500;
+    padding: 10px;
+    outline: none;
+}
+
+.textheading{
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #5a5a5a;
+    margin-left: 0.25rem 
+}
+
+.tr th{
+    font-size: 0.775rem;
+    padding: 0px !important;
+}
+
+tr:nth-child(1) {
+   padding-left: 5px !important;
+  }
+
+.penbtn{
+    font-size: 15px;
+    margin: 0px !important;
+    padding: 5px !important;
+}
+
+.iconsize{
+    font-size: 26px !important;
+    font-weight: 800 !important;
+}
+
+.thumbnail{
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.menuicon{
+    display: block;
+}
+
+/* news */
+
+.tableInput{
+    overflow: auto;
+    font-size: 0.775rem;
+    font-weight: 600;
+    color: var(--bs-body-color);
+    border: none;
+    width: 100%;
+    height: 70px !important;
+    padding-right: 15px;
+    outline: none;
+    line-height: 15px;
+    resize: none;
+    
+}
+
+.Tbodynews tr td,td input{
+    padding-left: 0px;
+    font-size: 0.775rem;
+    font-weight: 600;
+    color: var(--bs-body-color);
+
+}
+td{
+    vertical-align: middle !important;
+}
+
+.Theadnews tr th{
+    padding: 0px !important;
+    font-size: 0.775rem;
+    font-weight: 600;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.outlineNone{
+    outline: none;
+}
+
+
+.formouter{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px ;
+    background-color: #4b4b4b44 ;
+    z-index: 999;
+    
+}
+
+.forminer{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 26%;
+    left: 31%;
+}
+
+.outer{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px ;
+    background-color: #4b4b4b44 ;
+    z-index: 999;
+    
+}
+
+.iner{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.inputform{
+   border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    padding-inline: 10px;
+    font-size: 13px;
+    padding-block: 4px;
+}
+.float{
+    float: right;
+   
+}
+
+.center {
+    margin: auto;
+    width: 60%;     
+    padding: 10px;
+    
+  }
+
+.backcolor{
+    background-color: #cfcfcf5c;
+}
+
+.tdcenter{
+    padding-top : 35px !important;
+}
+
+.formfillbutton{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.iconSize{
+    font-size: 40px;
+}
+
+.User{
+    background: white;
+
+}
+
+.User ul li{
+    list-style: none;
+    padding: 5px;
+    padding-inline: 10px;
+}
+.User ul{
+    padding: 0px;
+}
+
+.user{
+    padding: 10px;
+    z-index: 9999;
+}

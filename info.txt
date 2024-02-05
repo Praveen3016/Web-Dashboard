@@ -1,0 +1,14 @@
+   {
+        /* 
+          <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script> 
+        <script src="../assets/js/core/popper.min.js"></script>
+        <script src="../assets/js/core/bootstrap.min.js"></script>
+        <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+        <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+        <script src="../assets/js/plugins/chartjs.min.js"></script>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <script src="../assets/js/soft-ui-dashboard.min.js?v=1.0.7"></script> */}
+
+
+
+sidenav   navbar navbar-vertical  navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3
