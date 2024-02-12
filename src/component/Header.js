@@ -33,7 +33,6 @@ console.log(munuhandle)
             <NavLink />
           </ul>
         </div>
-
       </aside>
     </>
   )
