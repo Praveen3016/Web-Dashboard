@@ -69,7 +69,7 @@ function NewsFormCompo() {
                         <input type="text" className='inputform w-100 ' placeholder='Link Seq' value={newsseq} onChange={(e) => setnewsseq(e.target.value)}  />
                     </div>
                     <div className='col-sm-6 d-flex flex-column'>
-                        <label htmlFor="" className='m-0 pt-2'>EXPIRE DATE</label>
+                        <label htmlFor="" className='m-0 pt-2'>EXPIR DATE</label>
                         <input className='inputform w-100 ' type="date" value={newsdate} onChange={(e) => setnewsdate(e.target.value)}  />
                     </div>
                 </div>
