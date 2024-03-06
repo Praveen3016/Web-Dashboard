@@ -24,7 +24,7 @@ function page() {
           <div className="bankingDetail position-relative    ">
             <div className="row">
               <div className="col-sm-4">
-                <PersonalInputComp name='CONSTACT NO.(PRIMARY)' value={contectNo1} set={setcontectNo1} disable={disable} />
+                <PersonalInputComp name='CONTACT NO.(PRIMARY)' value={contectNo1} set={setcontectNo1} disable={disable} />
               </div>
               <div className="col-sm-4">
                 <PersonalInputComp name='CONSTACT NO.2' value={contectNo2} set={setcontectNo2} disable={disable} />
